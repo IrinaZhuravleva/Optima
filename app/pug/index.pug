@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		include pages/_head
+		
+	body.ishome
+		.preloader
+			.pulse
+
+		#my-page
+			#my-header
+				header
+					.site-header
+						.top-line 
+							a(href="#").logo
+								img(src="/img/@1x/logo.svg", alt="logo", width="auto" height="50px")
+							.phone.hidden-sm.hidden-xs
+								i.fa.fa-mobile 
+								| +7 (495) 118-94-35
+							a(href="#my-menu").hamburger.hamburger--emphatic
+								span.hamburger-box
+									span.hamburger-inner
+							nav#my-menu
+								ul
+									li
+										a(href="#") Парикмахерский сервис
+									li
+										a(href="#") Маникюр
+									li
+										a(href="#") Массаж
+									li
+										a(href="#") Солярий
+									li
+										a(href="#") Наши специалисты
+									li
+										a(href="#") Новости
+									li
+										a(href="#") Прайст-лист
+									li
+										a(href="#") Наши сертификаты
+									li
+										a(href="#") О салоне
+						
+						.header-flex
+							.flex-center
+								.container
+									.row
+										.col-sm-7.col-xs-10
+											.header-composition
+												.welcome
+													p
+														span Добро пожаловать в профессиональный
+													h1.h1 Салон красоты
+													strong
+														i.fa.fa-star 
+														| В МОСКВЕ
+														i.fa.fa-star
+												p 
+													strong S&Mitler 
+													| - это салон красоты бизнес-класса. Мастера салона дарят посетителям уверенность в себе и индивидуальный стиль. Здесь представлены все самые востребованные услуги бьюти-индустрии.
+												a(href="").button.button-header О салоне
+						.header-social
+							nav.soc
+								ul
+									li
+										a(href="#")
+											i.fa.fa-facebook
+									li
+										a(href="#")
+											i.fa.fa-instagram
+									li
+										a(href="#")
+											i.fa.fa-vk
+						.header-contacts
+							.container
+								.row
+									.col-md-4.col-sm-6
+										i.fa.fa-location-arrow 
+										| г. Москва, ул. Ивана Бабушкина, 22с1
+									.col-md-4.col-sm-6.phone-h
+										i.fa.fa-mobile
+										span +7 (495) 118-94-35
+									.col-md-4.hidden-sm.hidden-xs
+										i.fa.fa-clock-o
+										| Время работы: ежедневно: 10:00 - 22:00
+
+			#my-content
+				section.s-services
+					.owl-carousel.carousel-services
+						.carousel-services-item 
+							.carousel-services-content
+								.carousel-services-composition
+									.carousel-logo
+										img(src="/img/logo-2.svg", alt="Смитлер-салон красоты")
+									h3.h3 Косметологический сервис
+									ul.carousel-services-list
+										li Ключевая услуга #1 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #2 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #3 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #3 - 
+											strong 8500 
+											i.fa.fa-rub
+									a(href="").button.button-white Список услуг
+
+							.carousel-services-image(style="background-image: url('../img/@2x/service.png');")
+
+						.carousel-services-item 
+							.carousel-services-content
+								.carousel-services-composition
+									.carousel-logo
+										img(src="/img/logo-2.svg", alt="Смитлер-салон красоты")
+									h3.h3 Парикмахерский сервис
+									ul.carousel-services-list
+										li Ключевая услуга #1 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #2 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #3 - 
+											strong 8500 
+											i.fa.fa-rub
+									a(href="").button.button-white Список услуг
+
+							.carousel-services-image(style="background-image: url('../img/@2x/service2.png');")
+
+						.carousel-services-item 
+							.carousel-services-content
+								.carousel-services-composition
+									.carousel-logo
+										img(src="/img/logo-2.svg", alt="Смитлер-салон красоты")
+									h3.h3 Маникюрный сервис
+									ul.carousel-services-list
+										li Ключевая услуга #1 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #2 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #3 - 
+											strong 8500 
+											i.fa.fa-rub
+									a(href="#").button.button-white Список услуг
+
+							.carousel-services-image(style="background-image: url('../img/@2x/service3.png');")
+
+						.carousel-services-item 
+							.carousel-services-content
+								.carousel-services-composition
+									.carousel-logo
+										img(src="/img/logo-2.svg", alt="Смитлер-салон красоты")
+									h3.h3 Косметологический сервис
+									ul.carousel-services-list
+										li Ключевая услуга #1 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #2 - 
+											strong 8500 
+											i.fa.fa-rub
+										li Ключевая услуга #3 - 
+											strong 8500 
+											i.fa.fa-rub
+									a(href="").button.button-white Список услуг
+
+							.carousel-services-image(style="background-image: url('../img/@2x/service.png');")
+						
+				section.s-king.inverse.section-overlay(style="background-image: url('../img/photos/foto-16.jpg');")
+					.container
+						.row
+							.col-md-5
+								h2.h2 Королевский салон
+								p 
+									strong S&Mitler 
+									| встречает своих посетителей современным дизайном и атмосферой уюта: огромное светлое пространство, изящная мебель, мягкие бархатные кресла. Это отличное место для того, чтобы посвятить пару часов только себе!
+								p Дамам здесь предложат экстраординарный ассортимент косметологических процедур и качественный нейл-сервис, а мужчин порадуют услугами стилистов и уходом за лицом.	
+
+							.col-md-7
+								.section-gallery.fotorama(data-nav='thumbs' data-thumbwidth='110' data-thumbheights='60' data-thumbborderwidth='5' data-thumbmargin='10')
+									img(src="../img/photos/foto-13.jpg", alt="Фото салона красоты")
+									img(src="../img/photos/foto-18.jpg", alt="Фото салона красоты")
+									img(src="../img/photos/foto-15.jpg", alt="Фото салона красоты")
+									img(src="../img/photos/foto-16.jpg", alt="Фото салона красоты")
+									img(src="../img/photos/foto-19.jpg", alt="Фото салона красоты")
+									img(src="../img/photos/foto-23.jpg", alt="Фото салона красоты")
+									img(src="../img/photos/foto-18.jpg", alt="Фото салона красоты")
+									img(src="../img/photos/foto-19.jpg", alt="Фото салона красоты")
+
+				section.s-call.inverse(style="background-image: url('../img/@2x/madama.jpg');")
+					.container
+						.row
+							.col-md-5.col-md-offset-7.col-sm-6.col-sm-offset-6
+								form.callback
+									.success
+										span Спасибо за заявку!
+
+									input(type="hidden"	name="project_name"	value="Smitler")
+									input(type="hidden"	name="admin_email"	value="sparrow113@ramlber.ru")
+									input(type="hidden"	name="form_subject"	value="Заявка с сайта Смитлер")
+									//- //- <!-- END Hidden Required Fields -->
+
+									input(type="hidden"	name="Страница"	value="")
+
+									.callback-logo
+										img(src="/img/logo-2.svg", alt="Смитлер-салон красоты")
+									
+									.form-head.h2 Оставить заявку
+									p Оставьте заявку и мы перезвоним вам в течение 15 минут.
+
+									input(type="text"	name="Name"	placeholder="Ваше имя..." required)
+									input(type="text"	name="Phone"	placeholder="Ваш телефон..."	required)
+									select(type="text"	name="Service"	placeholder="Выберите услугу...")
+										option(value disabled selected) Выберите услугу...
+										option Парикмахерский сервис
+										option Косметологический сервис
+										option Маникюрный сервис
+										option Массаж и SPA
+										option Солярий
+									button.button.button-white Отправить
+				
+				section.s-review.inverse.section-overlay(style="background-image: url('../img/@2x/bg-2.jpg');")
+					.container
+						.row
+							.col-sm-12
+								h2.h2.text-center.h-first Отзывы наших клиентов
+							.col-sm-8.col-sm-offset-2
+								.quotes
+								.owl-carousel.reviews
+									.review
+										.review-header Оксана
+										.review-date 29.07.18 (Стрижка)
+										.review-stars
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+										.review-text Мне очень повезло! Я случайно попала в салон красоты S&Mitler, когда возвращалась с работы. Времени, записываться на стрижку, у меня не было. И, на удачу, я попала в смену стилиста Марины. Я сама не знала, как я хочу постричься, но Марина предлагала несколько вариантов. И в итоге я получила колоссальное удовольствие от конечного итога! Марина с моими волосами сделала что-то невероятно красивое! После стрижки волосы стали более объемными и гладкими! Спасибо Мариночке за индивидуальный подход и качество выполненной работы!!!
+									.review
+										.review-header Александра
+										.review-date 29.07.18 (Маникюр)
+										.review-stars
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+										.review-text Мне очень повезло! Я случайно попала в салон красоты S&Mitler, когда возвращалась с работы. Времени, записываться на стрижку, у меня не было. И, на удачу, я попала в смену стилиста Марины. 
+									.review
+										.review-header Максим
+										.review-date 30.09.18 (Стрижка)
+										.review-stars
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+											i.fa.fa-star
+										.review-text Мне очень повезло! Я случайно попал в салон красоты S&Mitler, когда возвращалcz с работы. Времени, записываться на стрижку, у меня не было. И, на удачу, я попал в смену стилиста Марины. Я сам не знал, как я хочу постричься, но Марина предлагала несколько вариантов.
+
+				section.s-partners.section-overlay(style="background-image: url('../img/@2x/bg-3.jpg');")
+					.container
+						.row
+							.col-sm-12
+								h2.h2.text-center Наши партнёры
+								.col-sm-10.col-sm-offset-1
+									.owl-carousel.partners
+										.partner
+											img(src="img/partners/brend1.png", alt="Лого")
+										.partner
+											img(src="img/partners/brend2.png", alt="Лого")
+										.partner
+											img(src="img/partners/brend3.png", alt="Лого")
+										.partner
+											img(src="img/partners/brend4.png", alt="Лого")
+
+										.partner
+											img(src="img/partners/brend1.png", alt="Лого")
+										.partner
+											img(src="img/partners/brend2.png", alt="Лого")
+										.partner
+											img(src="img/partners/brend3.png", alt="Лого")
+										.partner
+											img(src="img/partners/brend4.png", alt="Лого")
+
+			#my-footer
+				.main-footer
+					.container
+						.row
+							.col-lg-2.col-sm-4.col-xs-12
+								.footer-column 
+									img(src="/img/logo-1.svg", alt="Смитлер-салон красоты").logo-footer
+									p 
+										|Cалон красоты
+										br
+										| бизнес-класса в Москве
+									.footer-social
+										nav.soc
+											ul
+												li
+													a(href="#")
+														i.fa.fa-facebook
+												li
+													a(href="#")
+														i.fa.fa-instagram
+												li
+													a(href="#")
+														i.fa.fa-vk
+							.col-lg-3.col-sm-4.col-xs-12
+								.footer-column
+									nav.footer-menu
+										ul
+											li.active
+												a(href="") Парикмахерский сервис
+											li
+												a(href="#") Косметологический сервис
+											li
+												a(href="#") Маникюрный сервис
+											li
+												a(href="#") Массаж
+											li
+												a(href="#") Солярий
+											li
+												a(href="#") Наши специалисты
+
+										
+							.col-lg-3.col-sm-4.col-xs-12
+								.footer-column
+									p.footer-address
+										i.fa.fa-location-arrow
+										| г. Москва, ул. Ивана Бабушкина, 22с1/ м. Профсоюзная
+									p.footer-address
+										i.fa.fa-clock-o
+										| Время работы: ежедневно,
+										br
+										| 10:00 - 22:00
+									p.footer-address
+										span.footer-phone
+											i.fa.fa-mobile
+											span +7 (495) 118-94-35
+							.col-lg-4.col-sm-12.col-xs-12
+								.footer-column
+									.map
+										script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A8fec9944348aaa96fa7924f4b4fe3f064a5c2825ad0993666934168d192b548a&amp;width=100%&amp;height=200&amp;lang=ru_RU&amp;scroll=true")
+										//- //изменено width и height
+
+		.top(title="Наверх")
+			i.fa.fa-angle-double-up
+
+		script(src="js/scripts.min.js")
+		

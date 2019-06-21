@@ -1,0 +1,119 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1200px)
+	.welcome .h1
+		font-size: 64px
+	.header-contacts
+		font-size: 14px
+	.carousel-services-item
+		flex-direction: column
+	.s
+		&-king, &-review, &-partners
+			padding: 8% 0
+	.s-call
+		background-size: cover 
+
+
+@media only screen and (max-width : 992px)
+	.welcome .h1
+		font-size: 48px
+	.s-call
+		&::before
+			width: 100%
+			// background-size: cover 
+		.callback
+			padding: 12% 0
+	p.footer-address
+		margin-bottom: 15px
+		.footer-phone
+			font-size: 24px
+			padding-top: 0
+			.fa
+				top: 8px
+
+@media only screen and (max-width : 768px)
+	.header-contacts
+		.phone-h
+			text-align: left
+	.button
+		padding: 12px 40px
+
+	.quotes
+		display: none
+	.partners
+		.owl-nav
+			> div
+				&.owl-prev
+					left: 0
+				&.owl-next
+					right: 0
+	.s-partners
+		.h2
+			margin: 0
+
+	.footer-column
+		margin: 20px 0
+
+	.footer-social
+		margin-top: 0
+		.soc li a
+			margin-top: 0
+	.footer-menu
+		padding-left: 20px
+
+
+@media only screen and (max-width : 480px)
+	.welcome 
+		.h1
+			font-size: 20px
+			margin-top: 5px
+		p 
+			span
+				font-size: 9px
+		strong
+			margin-top: 14px
+			font-size: 14px
+	.header-composition
+		p
+			font-size: 14px
+
+// @media only screen and (max-width : 320px)
+	
+
+
+
+// // ≥1200px
+// +media-breakpoint-down(lg)
+// 	.welcome .h1
+// 		font-size: 64px
+// 	.header-contacts
+// 		font-size: 14px
+
+// // ≥992px
+// +media-breakpoint-down(md)
+// 	.welcome .h1
+// 		font-size: 48px
+
+// // ≥768px
+// +media-breakpoint-down(sm)
+
+// // ≥576px
+// +media-breakpoint-down(xs)
+
+
+// /*==========  Mobile First  ==========*/
+
+// // ≤576px
+// +media-breakpoint-up(sm)
+
+// // ≤768px
+// +media-breakpoint-up(md)
+
+// // ≤992px
+// +media-breakpoint-up(lg)
+
+// // ≤1200px
+// +media-breakpoint-up(xl)

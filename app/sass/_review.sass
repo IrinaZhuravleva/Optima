@@ -1,0 +1,73 @@
+.reviews 
+	text-align: center
+	.owl-dots
+		width: 100%
+		text-align: center
+		margin-top: 60px
+		.owl-dot
+			width: 8px
+			height: 8px
+			background-color: #fff
+			border-radius: 10em
+			display: inline-block
+			margin: 5px
+			&.active
+				background-color: $accent
+				transform: scale(1.2)
+				transition: background-color .5s ease, transform .5s ease
+
+.quotes
+	position: absolute
+	width: 100%
+	&::before, &::after
+		content: ',,'
+		position: absolute
+		font-size: 56px
+		color: $accent
+		font-family: 'Times New Roman', serif
+		font-weight: bold
+		line-height: 0
+		top: 230px
+		display: block	
+	&::before
+		left: -60px
+		transform: rotate(180deg)
+	&::after
+		right: -60px
+		top: 192px
+
+.review
+	margin-top: 20px
+	&-header
+		font-family: 'Times New Roman', serif
+		font-style: italic
+		font-size: 30px
+		font-weight: bold
+	&-date
+		font-family: 'Times New Roman', serif
+		font-style: italic
+		font-size: 15px
+		margin-top: 2px
+		color: #888
+	&-stars
+		margin: 18px 0 33px
+		font-size: 14px
+		color: $accent
+		.fa
+			margin: 0 2.5px
+	&-text
+		color: #95989A
+		font-family: raleway, sans-serif
+
+
+
+
+
+
+
+
+
+
+
+
+
